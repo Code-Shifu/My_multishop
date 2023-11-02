@@ -1,5 +1,5 @@
 import './log.css';
-import Foot from '../Pages/foot';
+import Foot from '../Pages/Foot';
 import { useState } from 'react';
 import Swal from 'sweetalert2';
 import { useNavigate } from 'react-router-dom';
