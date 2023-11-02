@@ -2,7 +2,7 @@ import Caro from '../Pages/Caro'
 import Feature from '../Pages/Feature'
 import Offered from '../Pages/Offered'
 import Saved from '../Pages/Saved'
-import Foot from '../Pages/foot'
+import Foot from '../Pages/Foot'
 function Homeview() {
   return (
     <div style={{ backgroundColor:'rgb(254,216,177,0.3)' }}>

@@ -91,7 +91,7 @@ function Footer() {
                         <div className="d-flex">
                             <a className="btn btn-warning btn-square mr-2" href="#"><i className="fab fa-twitter"></i></a>
                             <a className="btn btn-warning btn-square mr-2" href="#"><i className="fab fa-facebook-f"></i></a>
-                            <a className="btn btn-warning btn-square mr-2" href="www.linkedin.com/in/egbodo-peace-83ab13295"><i className="fab fa-linkedin-in"></i></a>
+                            <a className="btn btn-warning btn-square mr-2" href="www.linkedin.com/in/egbodo-peace-83ab13295" target='_blank'><i className="fab fa-linkedin-in"></i></a>
                             <a className="btn btn-warning btn-square" href="#"><i className="fab fa-instagram"></i></a>
                         </div>
                     </div>
