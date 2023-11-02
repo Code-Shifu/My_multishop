@@ -268,7 +268,7 @@ function Navbar() {
                   <Link style={text} to="shirt">Dresses</Link>
                 </a>
                 <a href="" className="nav-item nav-link">
-                  <Link style={text} to="/phones">Phones</Link>
+                <Link style={text} to="/phones">Phones</Link>
                 </a>
                 <a href="" className="nav-item nav-link">
                   <Link style={text} to="/laptops">Laptops</Link>

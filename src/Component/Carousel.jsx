@@ -8,6 +8,7 @@ import './includes/bootstrap-reboot.css'
 import './includes/bootstrap-reboot.min.css'
 import './includes/style.scss'
 import './includes/animate.min.css'
+import { Link } from 'react-router-dom'
 
 
 
@@ -114,20 +115,28 @@ function Carosel() {
         <h2 className="section-title position-relative text-uppercase mx-xl-5 mb-4"><span className="bg-light pr-3">Categories</span></h2>
         <div className="row px-xl-5 pb-3 m-auto text-center">
             <div className="col-lg-3 col-md-4 col-sm-6 pb-1">
+        <Link  to="/phones">
+
                 <a className="text-decoration-none" href="">
                     <div className="cat-item d-flex align-items-center mb-4">
                         <div className="overflow-hidden" style={{width: '100px', height: '100px'}}>
                             <img className="img-fluid" src="https://johnlewis.scene7.com/is/image/JohnLewis/mobiles-nav-card-apple2-200323" alt=""/>
                         </div>
                         <div className="flex-fill pl-3">
-                            <h6 >Smart Phones</h6>
+                            <h6 >
+                            Phones
+
+                            </h6>
                             <small className="text-body">100 Products</small>
                         </div>
                     </div>
                 </a>
+            </Link>
+
             </div>
             <div className="col-lg-3 col-md-4 col-sm-6 pb-1">
-                <a className="text-decoration-none" href="">
+               <Link to='/laptops'>
+               <a className="text-decoration-none" href="">
                     <div className="cat-item img-zoom d-flex align-items-center mb-4">
                         <div className="overflow-hidden" style={{width: '100px', height: '100px'}}>
                             <img className="img-fluid h-100" src="https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/page/category/laptop/category-page-mod-xps-13-9320-sl-right-800x620.png?fmt=png-alpha&wid=800&hei=620" alt=""/>
@@ -138,9 +147,12 @@ function Carosel() {
                         </div>
                     </div>
                 </a>
+               </Link>
             </div>
+
             <div className="col-lg-3 col-md-4 col-sm-6 pb-1">
-                <a className="text-decoration-none" href="">
+              <Link>
+              <a className="text-decoration-none" href="">
                     <div className="cat-item img-zoom d-flex align-items-center mb-4">
                         <div className="overflow-hidden" style={{width: '100px', height: '100px'}}>
                             <img className="img-fluid h-100" src="https://chatelaine.com/wp-content/uploads/2021/12/grocery-prices-canada-2021-2022.jpg" alt=""/>
@@ -150,10 +162,12 @@ function Carosel() {
                             <small className="text-body">100 Products</small>
                         </div>
                     </div>
-                </a>
+                </a> 
+              </Link>
             </div>
             <div className="col-lg-3 col-md-4 col-sm-6 pb-1">
-                <a className="text-decoration-none" href="">
+              <Link to='/furnitures'>
+              <a className="text-decoration-none" href="">
                     <div className="cat-item img-zoom d-flex align-items-center mb-4">
                         <div className="overflow-hidden" style={{width: '100px', height: '100px'}}>
                             <img className="img-fluid " src="https://images.unsplash.com/photo-1583847268964-b28dc8f51f92?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZnVybml0dXJlc3xlbnwwfHwwfHx8MA%3D%3D&w=1000&q=80 " alt=""/>
@@ -164,8 +178,10 @@ function Carosel() {
                         </div>
                     </div>
                 </a>
+              </Link>
             </div>
             <div className="col-lg-3 col-md-4 col-sm-6 pb-1">
+                <Link to='/watches'>
                 <a className="text-decoration-none" href="">
                     <div className="cat-item img-zoom d-flex align-items-center mb-4">
                         <div className="overflow-hidden"style={{width: '100px', height: '100px'}}>
@@ -177,6 +193,7 @@ function Carosel() {
                         </div>
                     </div>
                 </a>
+                </Link>
             </div>
             <div className="col-lg-3 col-md-4 col-sm-6 pb-1">
                 <a className="text-decoration-none" href="">
@@ -192,7 +209,8 @@ function Carosel() {
                 </a>
             </div>
             <div className="col-lg-3 col-md-4 col-sm-6 pb-1">
-                <a className="text-decoration-none" href="">
+              <Link to='/shirt'>
+              <a className="text-decoration-none" href="">
                     <div className="cat-item img-zoom d-flex align-items-center mb-4">
                         <div className="overflow-hidden" style={{width: '100px', height: '100px'}}>
                             <img className="img-fluid h-100" src="https://www.telegraph.co.uk/content/dam/family/2022/11/01/TELEMMGLPICT000314735064_trans_NvBQzQNjv4Bq-LJS7LKjeK9Zr8QxHnNHGwpwjfeuChtHUoe9wtZBhk8.jpeg" alt=""/>
@@ -203,9 +221,11 @@ function Carosel() {
                         </div>
                     </div>
                 </a>
+              </Link>
             </div>
             <div className="col-lg-3 col-md-4 col-sm-6 pb-1">
-                <a className="text-decoration-none" href="">
+              <Link to='/shoes'>
+              <a className="text-decoration-none" href="">
                     <div className="cat-item img-zoom d-flex align-items-center mb-4">
                         <div className="overflow-hidden" style={{width: '100px', height: '100px'}}>
                             <img className="img-fluid h-100" src="https://ng.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/64/629476/1.jpg?7150" alt=""/>
@@ -216,9 +236,11 @@ function Carosel() {
                         </div>
                     </div>
                 </a>
+              </Link>
             </div>
             <div className="col-lg-3 col-md-4 col-sm-6 pb-1">
-                <a className="text-decoration-none" href="">
+              <Link to='/automotives'>
+              <a className="text-decoration-none" href="">
                     <div className="cat-item img-zoom d-flex align-items-center mb-4">
                         <div className="overflow-hidden" style={{width: '100px', height: '100px'}}>
                             <img className="img-fluid h-100" src="https://dxc.scene7.com/is/image/dxc/DXC_5in5_Automotive?$landscape_desktop$" alt=""/>
@@ -229,9 +251,11 @@ function Carosel() {
                         </div>
                     </div>
                 </a>
+              </Link>
             </div>
             <div className="col-lg-3 col-md-4 col-sm-6 pb-1">
-                <a className="text-decoration-none" href="">
+              <Link to='/home-decorations'>
+              <a className="text-decoration-none" href="">
                     <div className="cat-item img-zoom d-flex align-items-center mb-4">
                         <div className="overflow-hidden" style={{width: '100px', height: '100px'}}>
                             <img className="img-fluid h-100" src="https://media.designcafe.com/wp-content/uploads/2020/09/30173843/home-decor-ideas-for-living-room.jpg" alt=""/>
@@ -242,9 +266,11 @@ function Carosel() {
                         </div>
                     </div>
                 </a>
+              </Link>
             </div>
             <div className="col-lg-3 col-md-4 col-sm-6 pb-1">
-                <a className="text-decoration-none" href="">
+              <Link to='/fragrances'>
+              <a className="text-decoration-none" href="">
                     <div className="cat-item img-zoom d-flex align-items-center mb-4">
                         <div className="overflow-hidden" style={{width: '100px', height: '100px'}}>
                             <img className="img-fluid h-100" src="https://img.mensxp.com/media/content/2022/Apr/ns_624c2d508c2d7.jpeg" alt=""/>
@@ -255,9 +281,11 @@ function Carosel() {
                         </div>
                     </div>
                 </a>
+              </Link>
             </div>
             <div className="col-lg-3 col-md-4 col-sm-6 pb-1">
-                <a className="text-decoration-none" href="">
+              <Link to='/watches'>
+              <a className="text-decoration-none" href="">
                     <div className="cat-item img-zoom d-flex align-items-center mb-4">
                         <div className="overflow-hidden" style={{width: '100px', height: '100px'}}>
                             <img className="img-fluid h-100" src="https://media.gq.com/photos/64933f4d86fb14a13de76bc3/4:3/w_1500,h_1125,c_limit/rolex-watches-art.jpg" alt=""/>
@@ -268,6 +296,7 @@ function Carosel() {
                         </div>
                     </div>
                 </a>
+              </Link>
             </div>
         </div>
     </div>
