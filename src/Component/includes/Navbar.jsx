@@ -189,7 +189,7 @@ function Navbar() {
         <div className="row align-items-center bg-light py-3 px-xl-5 d-none d-lg-flex">
           <div className="col-lg-4">
             <a href="" className="text-decoration-none">
-              <span className="h1 text-uppercase text-warning bg-dark px-2">Multi</span>
+              <span className="h1 text-warning bg-dark px-2">MULTI</span>
               <span className="h1 text-uppercase text-dark bg-warning px-2 ml-n1">Shop</span>
             </a>
           </div>
@@ -237,7 +237,7 @@ function Navbar() {
           </div>
           <div className="col-lg-4 col-6 text-right">
             <p className="m-0">Customer Service</p>
-            <h5 className="m-0">+234 811 6405 518</h5>
+            <h5 className="m-0">+234 7069221747</h5>
           </div>
         </div>
       </div>

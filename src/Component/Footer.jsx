@@ -46,10 +46,11 @@ function Footer() {
         <div className="row px-xl-5 pt-5">
             <div className="col-lg-4 col-md-12 mb-5 pr-3 pr-xl-5">
                 <h5 className="text-warning text-uppercase mb-4">Get In Touch</h5>
-                <p className="mb-4">No dolore ipsum accusam no lorem. Invidunt sed clita kasd clita et et dolor sed dolor. Rebum tempor no vero est magna amet no</p>
-                <p className="mb-2"><i className="fa fa-map-marker-alt text-warning mr-3"></i>Osun state University,School Road</p>
-                <p className="mb-2"><i className="fa fa-envelope text-warning mr-3"></i>awofesobipeace@gmail.com</p>
-                <p className="mb-0"><i className="fa fa-phone-alt text-warning mr-3"></i>+234 81164 05518</p>
+                <p className="mb-4">Our purpose is true self-expression. From our people to our customers and partners,
+                we exist to satisfy and empower everyone to express their true selves  through fashion.</p>
+                <p className="mb-2"><i className="fa fa-map-marker-alt text-warning mr-3"></i>No 2 John Arena, Bkiet Area Osogbo.</p>
+                <p className="mb-2"><i className="fa fa-envelope text-warning mr-3"></i>egbodopeace0706@gmail.com</p>
+                <p className="mb-0"><i className="fa fa-phone-alt text-warning mr-3"></i>+234 7069221747</p>
             </div>
             <div className="col-lg-8 col-md-12">
                 <div className="row">
@@ -77,7 +78,7 @@ function Footer() {
                     </div>
                     <div className="col-md-4 mb-5">
                         <h5 className="text-warning text-uppercase mb-4">Newsletter</h5>
-                        <p>Duo stet tempor ipsum sit amet magna ipsum tempor est</p>
+                        <p>Make here your constant one time shop, A stop to get everything.</p>
                         <form action="">
                             <div className="input-group">
                                 <input type="text" className="form-control" placeholder="Your Email Address"/>
@@ -90,7 +91,7 @@ function Footer() {
                         <div className="d-flex">
                             <a className="btn btn-warning btn-square mr-2" href="#"><i className="fab fa-twitter"></i></a>
                             <a className="btn btn-warning btn-square mr-2" href="#"><i className="fab fa-facebook-f"></i></a>
-                            <a className="btn btn-warning btn-square mr-2" href="#"><i className="fab fa-linkedin-in"></i></a>
+                            <a className="btn btn-warning btn-square mr-2" href="www.linkedin.com/in/egbodo-peace-83ab13295"><i className="fab fa-linkedin-in"></i></a>
                             <a className="btn btn-warning btn-square" href="#"><i className="fab fa-instagram"></i></a>
                         </div>
                     </div>
@@ -102,7 +103,7 @@ function Footer() {
                 <p className="mb-md-0 text-center text-md-left text-secondary">
                     &copy; <a className="text-warning" href="#">Domain</a>. All Rights Reserved. Redesigned
                     by
-                    <a className="text-warning" href="#">CODEMaster</a>
+                    <a className="text-warning" href="#">Code-Shifu</a>
                 </p>
             </div>
             <div className="col-md-6 px-xl-0 text-center text-md-right">
